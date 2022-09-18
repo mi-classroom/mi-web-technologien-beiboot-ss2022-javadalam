@@ -1,3 +1,6 @@
+# Ignorieren file Folder 
+file/*
+
 # Logs
 logs
 *.log
