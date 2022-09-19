@@ -1,5 +1,5 @@
 # Ignorieren file Folder 
-frontend/frontend/data/*
+frontend/data/*
 
 # Logs
 logs
