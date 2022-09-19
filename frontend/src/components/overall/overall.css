@@ -1,0 +1,14 @@
+.Preview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Preview-painting {
+    margin: 0.5rem;
+}
+
+h1 {
+    color:orange ;
+    text-align: center;
+
+}
