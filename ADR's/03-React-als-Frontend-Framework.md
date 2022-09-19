@@ -1,4 +1,4 @@
-# Vite als Build-Tool
+# React als Frontend-Framework
 * Status: akzeptiert
 * Workload: 3 Stunden
 * Entscheider: [Javad Alamdar](https://github.com/javadalam)
