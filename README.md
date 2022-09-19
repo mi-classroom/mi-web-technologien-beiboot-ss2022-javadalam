@@ -30,7 +30,6 @@ A folder `/data` must be created in the `/frontend` folder and the cda-paintings
 ``` 
   ADR's/
   frontend/
-     frontend/
          data/
             Json.datei
          src/
