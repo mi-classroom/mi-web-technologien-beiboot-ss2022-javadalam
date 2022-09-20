@@ -14,10 +14,10 @@ const Detail = ({bestOf, setisDetails}) => {
 
     return (
         <div className='DetailedView'>
-        <button className='Detaileview-backButton u-marginBs' onClick={() => setisDetails(false)}>Zurück</button>
+        <button className='Detaileview-backButton u-marginBs' onClick={() => setisDetails(false)}>Back</button>
         <img className='DetailView-image u-marginBs' src={painting.images.overall.images[0].sizes.medium.src}/>
         <span className='u-marginBs'>Titel: {painting.metadata.title}</span>
-        <span className='u-marginBs'>Datum: {painting.images.overall.images[0].metadata.date} </span>
+        <span className='u-marginBs'>Date: {painting.images.overall.images[0].metadata.date} </span>
         <span>Besitzer: {painting.repository}</span>
         </div>
     )
