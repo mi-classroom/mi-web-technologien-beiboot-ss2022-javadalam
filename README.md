@@ -41,15 +41,32 @@ Run the following commands for the Development Server :
 ```sh
 cd frontend
 npm install 
-npm run Serve
+npm run dev
 ```
+
+### Start with Docker 
+
+Auf dem Gerät muss Docker-Compose installiert sein.
+
+1- Nach geklontem Repository , zum Ordner-Frontend gehen
+
+2- Erstellen und starten Sie den service über 
+```
+docker-compose up -d --build
+``` 
+3- Rufen Sie dann die Website auf  [localhost:3000](http://localhost:3000)
+
+4- Um den Container herunterzufahren, verwenden Sie 
+```
+docker-compose down --remove-orphans
+```
+lässt sich der Dienst runterfahren. `--remove-orphans` löscht dabei nicht mehr benötigte Container, die nicht als Dienst in der YAML definiert wurden.
+
 ## ADRs
 [Architectural Decision Records (ADR's)](./ADR's/README.md).
 
 ## Time required
 
-Issue 1 : 
+Issue 1 : 18 Stunde
 
-Issue 2 : 
- 
-Issue 3 : 
+Issue 2 : 5 Stunde
