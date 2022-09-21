@@ -54,7 +54,7 @@ Auf dem Gerät muss Docker-Compose installiert sein.
 ```
 docker-compose up -d --build
 ``` 
-3- Rufen Sie dann die Website auf  [localhost:3000](http://localhost:3000)
+3- Rufen Sie dann die Website auf  [localhost:5173](http://localhost:5173/)
 
 4- Um den Container herunterzufahren, verwenden Sie 
 ```
