@@ -65,7 +65,7 @@ docker-compose down --remove-orphans
 lässt sich der Dienst runterfahren. `--remove-orphans` löscht dabei nicht mehr benötigte Container, die nicht als Dienst in der YAML definiert wurden.
 
 ## ADRs
-[Architectural Decision Records (ADR's)](./ADR's/README.md).
+[Architectural Decision Records (ADR's)](./Document/ADR's/README.md).
 
 ## Time required
 
