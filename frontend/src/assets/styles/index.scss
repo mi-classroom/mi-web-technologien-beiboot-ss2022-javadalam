@@ -6,13 +6,52 @@ html {
     font-family: 'IBMPlexSans', sans-serif;
 }
 
-
-button:hover {
-    cursor: pointer;
+body {
+    background-color:gray;
 }
 
-/* suitcss util classes */
-
-.u-marginBs {
-    margin-bottom: $s;
+.Button {
+    margin-bottom: 1rem;
 }
+
+/* Start class von detail */ 
+
+.Detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.Image {
+    width: 30rem;
+}
+
+.BackButton {
+    width: 5rem;
+    background-color: darkcyan;
+  
+}
+
+
+/* Ende class von detail */ 
+
+
+/* Start class von overall*/ 
+
+.Overall {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Overall-preview {
+    margin: 0.15rem;
+    padding: 0.10rem;
+    background-color:darkcyan;
+}
+
+h1 {
+    color:orange ;
+    text-align: center;
+
+}
+
+/* Start class von overall*/ 

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Overall from './components/overall/overall';
+import Overall from './components/overall';
 
 import Data from "./../data/cda-paintings-2022-04-22.de.json";
-import { mergeSort } from './helpers/sorting.helper';
-import Detail from './components/detail/detail';
+import { sorting } from './components/sorting.number';
+import Detail from './components/detail';
 
 const App = () => {
 
