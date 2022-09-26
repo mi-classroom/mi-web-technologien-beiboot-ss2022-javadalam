@@ -10,6 +10,8 @@ To see the live demo simply [https://mi-classroom.github.io/mi-web-technologien-
 ## Team 
 [Javad Alamdar](https://github.com/javadalam) als Autor.
 
+[Sarfaroz Khakimov](https://github.com/Sarfaroz) als Reviewer.
+
 ## Setup 
 ### Requirements :
 
