@@ -10,6 +10,8 @@ To see the live demo simply [https://mi-classroom.github.io/mi-web-technologien-
 ## Team 
 [Javad Alamdar](https://github.com/javadalam) als Autor.
 
+[Sarfaroz Khakimov](https://github.com/Sarfaroz) als Reviewer.
+
 ## Setup 
 ### Requirements :
 
@@ -63,7 +65,7 @@ docker-compose down --remove-orphans
 lässt sich der Dienst runterfahren. `--remove-orphans` löscht dabei nicht mehr benötigte Container, die nicht als Dienst in der YAML definiert wurden.
 
 ## ADRs
-[Architectural Decision Records (ADR's)](./ADR's/README.md).
+[Architectural Decision Records (ADR's)](./Document/ADR's/README.md).
 
 ## Time required
 

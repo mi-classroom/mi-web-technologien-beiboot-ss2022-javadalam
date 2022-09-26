@@ -1,4 +1,4 @@
-export const mergeSort = (bestOf) => {
+export const sorting = (bestOf) => {
     if (bestOf?.length < 2) {
         return;
     }
@@ -12,13 +12,13 @@ export const mergeSort = (bestOf) => {
     for (var i = mid; i < bestOf?.length; i++) {
         arrayRight[i - mid] = bestOf[i];
     }
-    mergeSort(arrayLeft, mid);
-    mergeSort(arrayRight, bestOf?.length - mid);
+    sorting(arrayLeft, mid);
+    sorting(arrayRight, bestOf?.length - mid);
 
-    merge(bestOf, arrayLeft, arrayRight, mid, bestOf?.length - mid);
+    merging(bestOf, arrayLeft, arrayRight, mid, bestOf?.length - mid);
 }
 
-export const merge = (bestOf, l, r, left, right) => {
+export const merging = (bestOf, l, r, left, right) => {
     var i = 0, j = 0, k = 0;
     while (i < left && j < right) {
         if (l[i].sortingNumber <= r[j].sortingNumber) {
@@ -34,4 +34,13 @@ export const merge = (bestOf, l, r, left, right) => {
     while (j < right) {
         bestOf[k++] = r[j++];
     }
+}
+
+export const saveInLocalStorage = (key, value) => {
+    localStorage.setItem(key, value);
+};
+
+
+export const getFromLocalStorage = (key) => {
+    return localStorage.getItem(key);
 }
